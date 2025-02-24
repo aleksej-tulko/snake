@@ -158,7 +158,6 @@ def main():
             snake.reset()
             screen.fill(BOARD_BACKGROUND_COLOR)
             snake.move()
-        snake.draw()
         pg.display.update()
 
 
